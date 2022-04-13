@@ -1,0 +1,14 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+button:focus,
+input:focus {
+	outline: none;
+}
+
+.modal-main {
+	height: 40rem;
+}
